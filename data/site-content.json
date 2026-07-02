@@ -1,0 +1,60 @@
+{
+  "company": {
+    "name": "BluArc, LLC",
+    "tagline": "Independent app development for focused, useful software.",
+    "description": "BluArc, LLC designs and maintains simple, reliable apps across Apple and mobile platforms. Our work is built to be clear, respectful of privacy, and easy to support.",
+    "email": "support@bluarcllc.com",
+    "logoUrl": "/bluarc-logo-llc-transparent.png",
+    "supportMessage": "For app support, privacy questions, or account-related requests, contact us by email and include the app name in your message."
+  },
+  "apps": [
+    {
+      "id": "puzzlefy",
+      "name": "Puzzlefy",
+      "slug": "puzzlefy",
+      "description": "A puzzle game app.",
+      "longDescription": "Puzzlefy is a clean puzzle game experience designed for quick sessions and thoughtful play.",
+      "platforms": [
+        "iOS"
+      ],
+      "iconUrl": "",
+      "appStoreUrl": "#",
+      "googlePlayUrl": "#",
+      "supportUrl": "/support#puzzlefy",
+      "privacy": {
+        "effectiveDate": "July 2, 2026",
+        "informationCollected": "Puzzlefy does not collect personal data from users.",
+        "howInformationIsUsed": "Because Puzzlefy does not collect personal data, no personal information is used for tracking, profiling, or advertising.",
+        "thirdPartyServices": "Puzzlefy may use platform services provided by Apple for app distribution, crash reporting, purchases, or basic device functionality.",
+        "adsAnalyticsDisclosure": "Puzzlefy does not include third-party advertising or analytics SDKs unless this policy is updated to disclose them.",
+        "childrensPrivacy": "Puzzlefy is not intended to knowingly collect personal information from children. If you believe a child has provided personal information, contact us so we can address it.",
+        "contactEmail": "support@bluarcllc.com",
+        "updates": "We may update this privacy policy from time to time. Updates will be posted on this page with a revised effective date."
+      }
+    },
+    {
+      "id": "quietword",
+      "name": "QuietWord",
+      "slug": "quietword",
+      "description": "A King James Version Bible app.",
+      "longDescription": "QuietWord is a King James Version Bible app built for calm reading, listening, and study.",
+      "platforms": [
+        "iOS"
+      ],
+      "iconUrl": "",
+      "appStoreUrl": "#",
+      "googlePlayUrl": "#",
+      "supportUrl": "/support#quietword",
+      "privacy": {
+        "effectiveDate": "July 2, 2026",
+        "informationCollected": "QuietWord does not collect personal data from users.",
+        "howInformationIsUsed": "Because QuietWord does not collect personal data, no personal information is used for tracking, profiling, or advertising.",
+        "thirdPartyServices": "QuietWord may use platform services provided by Apple for app distribution, crash reporting, purchases, or basic device functionality.",
+        "adsAnalyticsDisclosure": "QuietWord does not include third-party advertising or analytics SDKs unless this policy is updated to disclose them.",
+        "childrensPrivacy": "QuietWord is not intended to knowingly collect personal information from children. If you believe a child has provided personal information, contact us so we can address it.",
+        "contactEmail": "support@bluarcllc.com",
+        "updates": "We may update this privacy policy from time to time. Updates will be posted on this page with a revised effective date."
+      }
+    }
+  ]
+}
