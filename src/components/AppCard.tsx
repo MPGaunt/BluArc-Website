@@ -5,8 +5,7 @@ import { PlatformBadge } from "./PlatformBadge";
 
 export function AppCard({ app }: { app: AppRecord }) {
   return (
-    <article className="group relative flex h-full flex-col overflow-hidden rounded-[28px] border border-white/70 bg-white/90 p-5 text-slate-950 shadow-xl shadow-slate-200/70 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-sky-200/60">
-      <div className="absolute right-0 top-0 h-28 w-28 rounded-bl-[4rem] bg-sky-100/80 transition group-hover:bg-cyan-100" />
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-[28px] border border-white/70 bg-white/95 p-5 text-slate-950 shadow-xl shadow-slate-200/70 ring-1 ring-sky-100/60 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-sky-200/60">
       <div className="relative flex items-start gap-4">
         <div className="rounded-[24px] bg-white p-2 shadow-inner shadow-slate-200">
           <AppIcon iconUrl={app.iconUrl} name={app.name} />
