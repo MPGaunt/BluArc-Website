@@ -27,6 +27,9 @@ export function AppCard({ app }: { app: AppRecord }) {
         <Link href={`/privacy/${app.slug}`} className="rounded-2xl border border-slate-200 bg-white px-3 py-3 text-center text-slate-700 hover:border-sky-300 hover:text-sky-700">
           Privacy
         </Link>
+        <Link href={`/terms/${app.slug}`} className="rounded-2xl border border-slate-200 bg-white px-3 py-3 text-center text-slate-700 hover:border-sky-300 hover:text-sky-700">
+          Terms
+        </Link>
         <a href={app.appStoreUrl || "#"} className="rounded-2xl bg-slate-950 px-3 py-3 text-center text-white hover:bg-sky-600">
           App Store
         </a>

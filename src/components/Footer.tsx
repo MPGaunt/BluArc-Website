@@ -10,7 +10,10 @@ export function Footer({ company }: { company: CompanyInfo }) {
         </p>
         <div className="flex gap-5">
           <Link href="/privacy" className="hover:text-sky-300">
-            Privacy
+            Legal
+          </Link>
+          <Link href="/terms" className="hover:text-sky-300">
+            Terms
           </Link>
           <Link href="/support" className="hover:text-sky-300">
             Support

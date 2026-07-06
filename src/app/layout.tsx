@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "BluArc, LLC | App Developer",
-  description: "BluArc, LLC app portfolio, support, and privacy policies.",
+  description: "BluArc, LLC app portfolio, support, privacy policies, and terms of service.",
 };
 
 export default function RootLayout({

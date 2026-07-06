@@ -1,6 +1,6 @@
 # BluArc, LLC Website
 
-A simple Next.js app developer website for BluArc, LLC with app listings, support pages, App Store privacy policy URLs, and a hidden JSON-backed admin portal.
+A simple Next.js app developer website for BluArc, LLC with app listings, support pages, App Store privacy policy URLs, terms of service pages, and a hidden JSON-backed admin portal.
 
 ## Run Locally
 
@@ -32,8 +32,10 @@ If you do not set `ADMIN_PASSWORD`, the local fallback password is `change-me-no
 - Home: `/`
 - Apps list: `/apps`
 - App details: `/apps/puzzlefy`, `/apps/quietword`
-- Privacy index: `/privacy`
+- Legal index: `/privacy`
 - App privacy policies: `/privacy/puzzlefy`, `/privacy/quietword`
+- Terms index: `/terms`
+- App terms of service: `/terms/puzzlefy`, `/terms/quietword`
 - Support: `/support`
 - Hidden admin: `/admin-portal`
 
@@ -64,12 +66,14 @@ Use `/admin-portal` to add, edit, or delete apps. Each app has:
 - App Store and Google Play links
 - support URL
 - editable privacy policy sections
+- editable terms of service sections
 
 The app slug controls the public URLs. For example, a slug of `puzzlefy` creates:
 
 ```text
 /apps/puzzlefy
 /privacy/puzzlefy
+/terms/puzzlefy
 ```
 
 ## Edit Privacy Policies
@@ -86,6 +90,23 @@ Each app contains its own privacy policy fields in `data/site-content.json`. The
 - updates to policy
 
 The default template is written for apps that collect no personal data. Customize it per app before submitting App Store privacy URLs.
+
+## Edit Terms of Service
+
+Each app also contains its own terms of service fields in `data/site-content.json`. The admin portal exposes:
+
+- effective date
+- acceptance of terms
+- permitted use
+- purchases and billing
+- user content
+- disclaimers
+- limitation of liability
+- termination
+- changes to terms
+- contact email
+
+Terms pages are available at `/terms/app-slug`.
 
 ## Deployment to Vercel
 

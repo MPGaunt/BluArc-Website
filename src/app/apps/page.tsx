@@ -30,7 +30,7 @@ export default async function AppsPage({
               <p className="text-sm font-black uppercase tracking-wide text-sky-300">Apps</p>
               <h1 className="mt-2 text-4xl font-black tracking-tight sm:text-5xl">The BluArc shelf.</h1>
               <p className="mt-3 max-w-2xl text-slate-300">
-                A simple catalog of what is live, what is supported, and where each app keeps its privacy policy.
+                A simple catalog of what is live, what is supported, and where each app keeps its legal links.
               </p>
             </div>
             <form className="flex w-full max-w-sm gap-2" action="/apps">

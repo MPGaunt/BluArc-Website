@@ -31,7 +31,7 @@ export default async function Home() {
                 Browse the apps
               </Link>
               <Link href="/privacy" className="rounded-full border border-white/15 bg-white/10 px-6 py-4 text-center text-sm font-bold text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/15">
-                Privacy links
+                Legal links
               </Link>
             </div>
             <div className="mt-10 grid max-w-xl grid-cols-3 gap-3 text-center text-sm">
@@ -72,7 +72,7 @@ export default async function Home() {
                   ))}
                   {firstApp ? (
                     <Link href={`/privacy/${firstApp.slug}`} className="block rounded-3xl bg-sky-100 p-4 text-sm font-bold text-sky-950 hover:bg-sky-200">
-                      App Store privacy URL ready for {firstApp.name}
+                      Privacy and terms URLs ready for {firstApp.name}
                     </Link>
                   ) : null}
                 </div>
@@ -89,7 +89,7 @@ export default async function Home() {
               <p className="text-sm font-black uppercase tracking-wide text-sky-700">Our Apps</p>
               <h2 className="mt-2 text-4xl font-black tracking-tight text-slate-950">Small apps with a pulse.</h2>
               <p className="mt-3 max-w-2xl text-slate-600">
-                Games, reading tools, and whatever useful thing comes next. Every app gets a real support path and a clean privacy page.
+                Games, reading tools, and whatever useful thing comes next. Every app gets a real support path, privacy page, and terms page.
               </p>
             </div>
             <Link href="/apps" className="rounded-full bg-slate-950 px-5 py-3 text-sm font-bold text-white shadow-lg shadow-slate-300 transition hover:bg-sky-600">

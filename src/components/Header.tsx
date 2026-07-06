@@ -15,7 +15,7 @@ export function Header({ company }: { company: CompanyInfo }) {
             Apps
           </Link>
           <Link className="rounded-full px-2 py-3 transition hover:bg-white/10 hover:text-white sm:px-5 lg:px-7" href="/privacy">
-            Privacy
+            Legal
           </Link>
           <Link className="rounded-full bg-sky-400 px-2 py-3 text-slate-950 shadow-lg shadow-sky-500/25 transition hover:bg-white sm:px-7 lg:px-9" href="/support">
             Support

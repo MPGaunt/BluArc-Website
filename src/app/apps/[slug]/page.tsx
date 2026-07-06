@@ -52,6 +52,9 @@ export default async function AppDetailPage({
               <Link href={`/privacy/${app.slug}`} className="rounded-2xl border border-slate-200 px-5 py-4 text-center text-sm font-black text-slate-700 hover:border-sky-300 hover:text-sky-700">
                 Privacy Policy
               </Link>
+              <Link href={`/terms/${app.slug}`} className="rounded-2xl border border-slate-200 px-5 py-4 text-center text-sm font-black text-slate-700 hover:border-sky-300 hover:text-sky-700">
+                Terms of Service
+              </Link>
               <Link href={app.supportUrl || "/support"} className="rounded-2xl border border-slate-200 px-5 py-4 text-center text-sm font-black text-slate-700 hover:border-sky-300 hover:text-sky-700">
                 Support
               </Link>

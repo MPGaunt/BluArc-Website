@@ -165,6 +165,7 @@ function AppEditor({
         <div>
           <h2 className="text-2xl font-semibold text-slate-950">{app.name}</h2>
           <p className="mt-1 text-sm text-slate-500">Privacy URL: /privacy/{app.slug}</p>
+          <p className="mt-1 text-sm text-slate-500">Terms URL: /terms/{app.slug}</p>
         </div>
         <button onClick={onDelete} className="rounded-md border border-red-200 px-4 py-2 text-sm font-semibold text-red-700 hover:bg-red-50">
           Delete app
@@ -214,6 +215,44 @@ function AppEditor({
               onChange({
                 ...app,
                 privacy: { ...app.privacy, [key]: value },
+              })
+            }
+          />
+        ))}
+      </div>
+
+      <div className="mt-8 border-t border-slate-200 pt-6">
+        <h3 className="text-xl font-semibold text-slate-950">Terms of Service</h3>
+        <div className="mt-4 grid gap-4 md:grid-cols-2">
+          <TextField
+            label="Effective date"
+            value={app.terms.effectiveDate}
+            onChange={(value) => onChange({ ...app, terms: { ...app.terms, effectiveDate: value } })}
+          />
+          <TextField
+            label="Terms contact email"
+            value={app.terms.contactEmail}
+            onChange={(value) => onChange({ ...app, terms: { ...app.terms, contactEmail: value } })}
+          />
+        </div>
+        {[
+          ["Acceptance of terms", "acceptance"],
+          ["Permitted use", "permittedUse"],
+          ["Purchases and billing", "purchases"],
+          ["User content", "userContent"],
+          ["Disclaimers", "disclaimers"],
+          ["Limitation of liability", "limitationOfLiability"],
+          ["Termination", "termination"],
+          ["Changes to terms", "changes"],
+        ].map(([label, key]) => (
+          <TextArea
+            key={key}
+            label={label}
+            value={app.terms[key as keyof AppRecord["terms"]]}
+            onChange={(value) =>
+              onChange({
+                ...app,
+                terms: { ...app.terms, [key]: value },
               })
             }
           />

@@ -17,6 +17,19 @@ export type PrivacyPolicy = {
   updates: string;
 };
 
+export type TermsOfService = {
+  effectiveDate: string;
+  acceptance: string;
+  permittedUse: string;
+  purchases: string;
+  userContent: string;
+  disclaimers: string;
+  limitationOfLiability: string;
+  termination: string;
+  changes: string;
+  contactEmail: string;
+};
+
 export type AppRecord = {
   id: string;
   name: string;
@@ -29,6 +42,7 @@ export type AppRecord = {
   googlePlayUrl: string;
   supportUrl: string;
   privacy: PrivacyPolicy;
+  terms: TermsOfService;
 };
 
 export type CompanyInfo = {

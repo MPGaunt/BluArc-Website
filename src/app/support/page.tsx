@@ -32,6 +32,9 @@ export default async function SupportPage() {
                 <Link href={`/privacy/${app.slug}`} className="rounded-full bg-sky-100 px-4 py-2 text-sky-800 hover:bg-sky-200">
                   Privacy policy
                 </Link>
+                <Link href={`/terms/${app.slug}`} className="rounded-full bg-slate-100 px-4 py-2 text-slate-800 hover:bg-slate-200">
+                  Terms
+                </Link>
               </div>
             </article>
           ))}
