@@ -33,9 +33,6 @@ export function AppCard({ app }: { app: AppRecord }) {
         <a href={app.appStoreUrl || "#"} className="rounded-2xl bg-slate-950 px-3 py-3 text-center text-white hover:bg-sky-600">
           App Store
         </a>
-        <a href={app.googlePlayUrl || "#"} className="rounded-2xl bg-slate-100 px-3 py-3 text-center text-slate-800 hover:bg-sky-50 hover:text-sky-700">
-          Google Play
-        </a>
       </div>
     </article>
   );

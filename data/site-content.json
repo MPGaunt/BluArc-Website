@@ -19,13 +19,12 @@
       ],
       "iconUrl": "",
       "appStoreUrl": "#",
-      "googlePlayUrl": "#",
       "supportUrl": "/support#puzzlefy",
       "privacy": {
         "effectiveDate": "July 6, 2026",
         "informationCollected": "Puzzlefy may collect information needed to provide accounts, purchases, custom photo puzzles, ads, support, and app functionality. This may include account identifiers such as email address or sign-in provider information, app user ID, purchase/subscription status, device and app information, diagnostic data, ad-related identifiers or signals, and messages you send to support. If you upload a custom photo to create a puzzle, Puzzlefy may process and store that photo and related puzzle data so the feature can work.",
         "howInformationIsUsed": "Information is used to create and manage accounts, authenticate users, provide app features, generate custom photo puzzles, save or sync app data, verify purchases or subscriptions, show and measure ads, improve reliability, prevent abuse, respond to support requests, and comply with legal or app store requirements. Uploaded photos are used to provide the custom puzzle feature and are not sold by BluArc, LLC.",
-        "thirdPartyServices": "Puzzlefy uses Firebase and related Google services, which may include Firebase Authentication, Firebase Storage, Firebase database services, Firebase Analytics, Crashlytics, Cloud Functions, and Google advertising services such as Google Mobile Ads or AdMob. Puzzlefy may also use Apple App Store services and Google Play services for purchases, distribution, subscriptions, refunds, and app platform functionality. These third-party services may process data according to their own privacy policies.",
+        "thirdPartyServices": "Puzzlefy uses Firebase and related Google services, which may include Firebase Authentication, Firebase Storage, Firebase database services, Firebase Analytics, Crashlytics, Cloud Functions, and Google advertising services such as Google Mobile Ads or AdMob. Puzzlefy may also use Apple App Store services for purchases, distribution, subscriptions, refunds, and app platform functionality. These third-party services may process data according to their own privacy policies.",
         "adsAnalyticsDisclosure": "Puzzlefy may display ads and may use advertising and analytics technologies to deliver ads, limit fraud, measure performance, understand app usage, and improve the app. Depending on your device settings and consent choices, ads may use identifiers such as Apple's Identifier for Advertisers, Google advertising ID, device information, approximate location, ad interactions, and app activity. You can manage ad tracking preferences through your device settings and applicable consent prompts.",
         "childrensPrivacy": "Puzzlefy is not directed to children under 13 and does not knowingly collect personal information from children under 13. Some app features, such as accounts, custom photo uploads, purchases, and advertising, may involve data collection or third-party processing. If you believe a child has provided personal information without appropriate consent, contact us so we can review and delete it where required.",
         "contactEmail": "support@bluarcllc.com",
@@ -55,7 +54,6 @@
       ],
       "iconUrl": "",
       "appStoreUrl": "#",
-      "googlePlayUrl": "#",
       "supportUrl": "/support#quietword",
       "privacy": {
         "effectiveDate": "July 2, 2026",

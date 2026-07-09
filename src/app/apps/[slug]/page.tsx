@@ -46,9 +46,6 @@ export default async function AppDetailPage({
               <a href={app.appStoreUrl || "#"} className="rounded-2xl bg-slate-950 px-5 py-4 text-center text-sm font-black text-white hover:bg-sky-600">
                 App Store
               </a>
-              <a href={app.googlePlayUrl || "#"} className="rounded-2xl bg-slate-100 px-5 py-4 text-center text-sm font-black text-slate-800 hover:bg-sky-50 hover:text-sky-700">
-                Google Play
-              </a>
               <Link href={`/privacy/${app.slug}`} className="rounded-2xl border border-slate-200 px-5 py-4 text-center text-sm font-black text-slate-700 hover:border-sky-300 hover:text-sky-700">
                 Privacy Policy
               </Link>

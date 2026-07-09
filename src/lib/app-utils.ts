@@ -23,7 +23,6 @@ export function makeDefaultApp(): AppRecord {
     platforms: ["iOS"],
     iconUrl: "",
     appStoreUrl: "#",
-    googlePlayUrl: "#",
     supportUrl: "/support#new-app",
     privacy: {
       effectiveDate,

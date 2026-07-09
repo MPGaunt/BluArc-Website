@@ -39,7 +39,6 @@ export type AppRecord = {
   platforms: Platform[];
   iconUrl: string;
   appStoreUrl: string;
-  googlePlayUrl: string;
   supportUrl: string;
   privacy: PrivacyPolicy;
   terms: TermsOfService;

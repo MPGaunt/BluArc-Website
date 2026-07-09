@@ -178,7 +178,6 @@ function AppEditor({
         <TextField label="Icon URL" value={app.iconUrl} onChange={(value) => update("iconUrl", value)} />
         <TextField label="Support URL" value={app.supportUrl} onChange={(value) => update("supportUrl", value)} />
         <TextField label="App Store URL" value={app.appStoreUrl} onChange={(value) => update("appStoreUrl", value)} />
-        <TextField label="Google Play URL" value={app.googlePlayUrl} onChange={(value) => update("googlePlayUrl", value)} />
       </div>
 
       <PlatformPicker selected={app.platforms} onChange={(platforms) => update("platforms", platforms)} />

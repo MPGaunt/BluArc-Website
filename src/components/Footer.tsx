@@ -5,10 +5,10 @@ export function Footer({ company }: { company: CompanyInfo }) {
   return (
     <footer className="bg-slate-950 text-slate-300">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-8 text-sm sm:flex-row sm:items-center sm:justify-between">
-        <p>
+        <p className="leading-6">
           © {new Date().getFullYear()} {company.name}. All rights reserved.
         </p>
-        <div className="flex gap-5">
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
           <Link href="/privacy" className="hover:text-sky-300">
             Legal
           </Link>
@@ -21,7 +21,7 @@ export function Footer({ company }: { company: CompanyInfo }) {
           <Link href="/admin-portal" className="hover:text-sky-300">
             Admin
           </Link>
-          <a href={`mailto:${company.email}`} className="hover:text-sky-300">
+          <a href={`mailto:${company.email}`} className="break-all hover:text-sky-300">
             {company.email}
           </a>
         </div>

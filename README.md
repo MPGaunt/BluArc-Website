@@ -63,7 +63,7 @@ Use `/admin-portal` to add, edit, or delete apps. Each app has:
 - icon URL
 - short and long descriptions
 - platform badges
-- App Store and Google Play links
+- App Store links
 - support URL
 - editable privacy policy sections
 - editable terms of service sections
