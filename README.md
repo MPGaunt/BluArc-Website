@@ -31,11 +31,11 @@ If you do not set `ADMIN_PASSWORD`, the local fallback password is `change-me-no
 
 - Home: `/`
 - Apps list: `/apps`
-- App details: `/apps/puzzlefy`, `/apps/quietword`
+- App details: `/apps/quietword`
 - Legal index: `/privacy`
-- App privacy policies: `/privacy/puzzlefy`, `/privacy/quietword`
+- App privacy policies: `/privacy/quietword`
 - Terms index: `/terms`
-- App terms of service: `/terms/puzzlefy`, `/terms/quietword`
+- App terms of service: `/terms/quietword`
 - Support: `/support`
 - Hidden admin: `/admin-portal`
 
@@ -68,12 +68,12 @@ Use `/admin-portal` to add, edit, or delete apps. Each app has:
 - editable privacy policy sections
 - editable terms of service sections
 
-The app slug controls the public URLs. For example, a slug of `puzzlefy` creates:
+The app slug controls the public URLs. For example, a slug of `quietword` creates:
 
 ```text
-/apps/puzzlefy
-/privacy/puzzlefy
-/terms/puzzlefy
+/apps/quietword
+/privacy/quietword
+/terms/quietword
 ```
 
 ## Edit Privacy Policies
