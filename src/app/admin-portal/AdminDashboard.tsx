@@ -198,18 +198,18 @@ function AppEditor({
             onChange={(value) => onChange({ ...app, privacy: { ...app.privacy, contactEmail: value } })}
           />
         </div>
-        {[
+        {([
           ["Information collected", "informationCollected"],
           ["How information is used", "howInformationIsUsed"],
           ["Third-party services/SDKs", "thirdPartyServices"],
           ["Ads/analytics disclosure", "adsAnalyticsDisclosure"],
           ["Children's privacy", "childrensPrivacy"],
           ["Updates to policy", "updates"],
-        ].map(([label, key]) => (
+        ] as const).map(([label, key]) => (
           <TextArea
             key={key}
             label={label}
-            value={app.privacy[key as keyof AppRecord["privacy"]]}
+            value={app.privacy[key]}
             onChange={(value) =>
               onChange({
                 ...app,

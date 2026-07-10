@@ -9,6 +9,84 @@
   },
   "apps": [
     {
+      "id": "autoatlas",
+      "name": "AutoAtlas",
+      "slug": "autoatlas",
+      "description": "A vehicle maintenance and document vault app.",
+      "longDescription": "AutoAtlas helps vehicle owners track maintenance, reminders, receipts, warranties, registration records, insurance records, photos, notes, documents, costs, and resale/export reports in an offline-first app.",
+      "platforms": [
+        "iOS"
+      ],
+      "iconUrl": "",
+      "appStoreUrl": "#",
+      "supportUrl": "/support#autoatlas",
+      "privacy": {
+        "effectiveDate": "July 10, 2026",
+        "informationCollected": "AutoAtlas lets you store information about your vehicles, including vehicle details, mileage, maintenance records, reminders, receipts, warranties, registration records, insurance records, photos, notes, documents, costs, and resale/export reports.\n\nThis information is created and controlled by you. AutoAtlas does not require an account with BluArc LLC, and we do not operate a required backend server for your private vehicle records.\n\nIf you contact us for support, feedback, or business questions, we may receive information you choose to provide, such as your name, email address, screenshots, device details, or a description of the issue.",
+        "howInformationIsUsed": "AutoAtlas is designed to work fully offline. By default, your AutoAtlas data is stored locally on your device using Apple's on-device storage technologies. We do not receive, view, sell, or share the vehicle records you save locally in the app.\n\nInformation you add is used by the app to provide vehicle maintenance tracking, reminders, document storage, cost history, reports, and export features. Support communications are used to respond to you, troubleshoot issues, improve AutoAtlas, and maintain business records.\n\nPlease do not send sensitive vehicle documents, insurance cards, financial documents, or personally sensitive files by email unless necessary for support.",
+        "thirdPartyServices": "AutoAtlas may use Apple platform services, including App Store purchases, iCloud, CloudKit, device backup, notifications, photo library access, document picker, and other Apple device features.\n\nPremium and Pro users may use iCloud backup and sync where available. When iCloud sync is enabled, AutoAtlas uses Apple's iCloud and CloudKit services to store and sync your AutoAtlas data through your private Apple iCloud account. iCloud data is handled by Apple under Apple's terms and privacy practices, and synced data may count against your personal iCloud storage.\n\nWe may also use service providers that help us operate our website, support inbox, business records, or customer communications.",
+        "adsAnalyticsDisclosure": "AutoAtlas is not designed to track you across apps or websites. AutoAtlas does not sell your personal information and does not use your vehicle records for advertising.\n\nIf we add analytics, crash reporting, advertising, or third-party SDKs in the future, we will update this Privacy Policy and the App Store privacy disclosures as required before or when those features are released.",
+        "childrensPrivacy": "AutoAtlas is intended for vehicle owners and is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided information to us, contact us and we will take appropriate steps.",
+        "contactEmail": "support@bluarcllc.com",
+        "contactWebsite": "BluArcLLC.com",
+        "updates": "We may update this Privacy Policy from time to time. If we make material changes, we will update the Last updated date and, when appropriate, provide additional notice in the app or on our website.",
+        "additionalSections": [
+          {
+            "title": "Local Storage",
+            "content": "By default, your AutoAtlas data is stored locally on your device using Apple's on-device storage technologies. We do not receive, view, sell, or share the vehicle records you save locally in the app.\n\nIf you delete the app, reset your device, or erase app data, locally stored records may be deleted unless they have been backed up by Apple device backup services or synced through iCloud where available."
+          },
+          {
+            "title": "iCloud Sync",
+            "content": "Premium and Pro users may use iCloud backup and sync where available. When iCloud sync is enabled, AutoAtlas uses Apple's iCloud and CloudKit services to store and sync your AutoAtlas data through your private Apple iCloud account.\n\niCloud data is handled by Apple under Apple's terms and privacy practices. AutoAtlas does not operate its own server for this synced data. Synced data may count against your personal iCloud storage.\n\nYou can manage iCloud availability through your Apple ID, iCloud settings, device settings, and app settings."
+          },
+          {
+            "title": "Photos, Documents, and Attachments",
+            "content": "AutoAtlas may ask for access to your photo library or document picker when you choose to attach a photo, receipt, PDF, warranty, registration, insurance card, or other file to a record. AutoAtlas only uses the files or photos you choose to add.\n\nAttachments are stored locally on your device unless iCloud sync is enabled for the app and your plan supports it."
+          },
+          {
+            "title": "Notifications",
+            "content": "AutoAtlas may ask for notification permission if you choose to use reminders. Notifications are used for vehicle-related reminders such as oil changes, tire rotations, registration renewals, insurance renewals, inspections, and other reminders you create.\n\nYou can change notification permissions at any time in iOS Settings."
+          },
+          {
+            "title": "Purchases and Subscriptions",
+            "content": "If AutoAtlas offers paid plans, purchases and subscriptions are processed by Apple through the App Store. We do not receive your full payment card number or billing credentials. Apple may provide us with limited subscription status information needed to unlock app features.\n\nYou can manage or cancel App Store subscriptions through your Apple ID subscription settings."
+          },
+          {
+            "title": "Data Sharing",
+            "content": "We do not sell your AutoAtlas vehicle records.\n\nWe may share information only in limited situations:\n\n- With Apple, when you use App Store purchases, iCloud, CloudKit, device backup, notifications, or other Apple platform services.\n- With service providers that help us operate our website, support inbox, business records, or customer communications.\n- If required by law, legal process, or to protect rights, safety, security, or prevent misuse.\n- If BluArc LLC is involved in a merger, acquisition, financing, reorganization, or sale of assets, subject to appropriate protections."
+          },
+          {
+            "title": "Exports and Sharing",
+            "content": "AutoAtlas may let you export vehicle history reports, resale packets, documents, or summaries. You control whether to create and share those exports. Once you share an export with another person or app, their handling of that file is outside AutoAtlas's control.\n\nReview exported reports before sharing them, especially if they include insurance, registration, VIN, license plate, purchase price, receipts, addresses, names, or other personal information."
+          },
+          {
+            "title": "Data Deletion",
+            "content": "You can delete records inside AutoAtlas. You can also delete the app from your device. If iCloud sync is enabled, deleted synced records may also be removed from iCloud-connected devices according to Apple's iCloud behavior.\n\nFor support communications you sent to us, you may contact us to request deletion where legally required or reasonably possible."
+          },
+          {
+            "title": "Security",
+            "content": "We use reasonable technical and organizational measures appropriate for an offline-first app. However, no method of storage or transmission is completely secure. You are responsible for protecting access to your device, Apple ID, iCloud account, and exported files."
+          },
+          {
+            "title": "International Users",
+            "content": "AutoAtlas may be used in locations outside the United States. If you contact us or use Apple services, information may be processed in the United States or other countries according to applicable service provider practices and laws."
+          }
+        ]
+      },
+      "terms": {
+        "effectiveDate": "July 10, 2026",
+        "acceptance": "By downloading, accessing, or using AutoAtlas, you agree to these Terms of Service. If you do not agree, do not use the app.",
+        "permittedUse": "AutoAtlas is provided for personal, lawful use to help track vehicle maintenance, reminders, documents, notes, costs, and exports. You agree not to misuse the app, interfere with its operation, attempt unauthorized access, or use it in a way that violates applicable laws.",
+        "purchases": "If AutoAtlas offers paid plans, subscriptions, or in-app purchases, those transactions are handled by Apple through the App Store. Refunds, billing, and cancellation rules are managed by Apple's policies.",
+        "userContent": "You are responsible for the vehicle records, photos, documents, receipts, notes, reports, and other content you add to AutoAtlas. You are also responsible for reviewing exported files before sharing them.",
+        "disclaimers": "AutoAtlas is provided as is and as available. Vehicle reminders, maintenance records, document storage, reports, and cost tracking are provided for personal organization and are not a substitute for professional mechanical, legal, insurance, financial, or safety advice.",
+        "limitationOfLiability": "To the maximum extent permitted by law, BluArc, LLC is not liable for indirect, incidental, special, consequential, or punitive damages arising from your use of AutoAtlas, including lost records, deleted files, missed reminders, or decisions made from exported reports.",
+        "termination": "We may suspend or discontinue access to AutoAtlas if these terms are violated or if the app is no longer supported.",
+        "changes": "We may update these Terms of Service from time to time. Updates will be posted on this page with a revised effective date.",
+        "contactEmail": "support@bluarcllc.com"
+      }
+    },
+    {
       "id": "quietword",
       "name": "QuietWord",
       "slug": "quietword",

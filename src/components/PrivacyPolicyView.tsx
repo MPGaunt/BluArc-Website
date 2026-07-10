@@ -24,6 +24,12 @@ export function PrivacyPolicyView({ app }: { app: AppRecord }) {
             <p className="mt-3 whitespace-pre-line leading-7 text-slate-700">{app.privacy[key]}</p>
           </section>
         ))}
+        {app.privacy.additionalSections?.map((section) => (
+          <section key={section.title} className="rounded-[1.5rem] bg-white/95 p-6 shadow-lg shadow-slate-300/40">
+            <h2 className="text-xl font-black text-slate-950">{section.title}</h2>
+            <p className="mt-3 whitespace-pre-line leading-7 text-slate-700">{section.content}</p>
+          </section>
+        ))}
         <section className="rounded-[1.5rem] bg-sky-50 p-6 shadow-lg shadow-slate-300/40">
           <h2 className="text-xl font-black text-slate-950">Contact</h2>
           <p className="mt-3 leading-7 text-slate-700">
@@ -33,6 +39,14 @@ export function PrivacyPolicyView({ app }: { app: AppRecord }) {
             </a>
             .
           </p>
+          {app.privacy.contactWebsite ? (
+            <p className="mt-2 leading-7 text-slate-700">
+              Website:{" "}
+              <a className="font-black text-sky-700 hover:text-sky-900" href={`https://${app.privacy.contactWebsite.toLowerCase()}`}>
+                {app.privacy.contactWebsite}
+              </a>
+            </p>
+          ) : null}
         </section>
       </div>
     </article>

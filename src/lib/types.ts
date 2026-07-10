@@ -14,7 +14,12 @@ export type PrivacyPolicy = {
   adsAnalyticsDisclosure: string;
   childrensPrivacy: string;
   contactEmail: string;
+  contactWebsite?: string;
   updates: string;
+  additionalSections?: {
+    title: string;
+    content: string;
+  }[];
 };
 
 export type TermsOfService = {
