@@ -26,6 +26,12 @@ export function TermsOfServiceView({ app }: { app: AppRecord }) {
             <p className="mt-3 whitespace-pre-line leading-7 text-slate-700">{app.terms[key]}</p>
           </section>
         ))}
+        {app.terms.additionalSections?.map((section) => (
+          <section key={section.title} className="rounded-[1.5rem] bg-white/95 p-6 shadow-lg shadow-slate-300/40">
+            <h2 className="text-xl font-black text-slate-950">{section.title}</h2>
+            <p className="mt-3 whitespace-pre-line leading-7 text-slate-700">{section.content}</p>
+          </section>
+        ))}
         <section className="rounded-[1.5rem] bg-sky-50 p-6 shadow-lg shadow-slate-300/40">
           <h2 className="text-xl font-black text-slate-950">Contact</h2>
           <p className="mt-3 leading-7 text-slate-700">
@@ -35,6 +41,14 @@ export function TermsOfServiceView({ app }: { app: AppRecord }) {
             </a>
             .
           </p>
+          {app.terms.contactWebsite ? (
+            <p className="mt-2 leading-7 text-slate-700">
+              Website:{" "}
+              <a className="font-black text-sky-700 hover:text-sky-900" href={`https://${app.terms.contactWebsite.toLowerCase()}`}>
+                {app.terms.contactWebsite}
+              </a>
+            </p>
+          ) : null}
         </section>
       </div>
     </article>

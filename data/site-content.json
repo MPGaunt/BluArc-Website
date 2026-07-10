@@ -75,15 +75,66 @@
       },
       "terms": {
         "effectiveDate": "July 10, 2026",
-        "acceptance": "By downloading, accessing, or using AutoAtlas, you agree to these Terms of Service. If you do not agree, do not use the app.",
-        "permittedUse": "AutoAtlas is provided for personal, lawful use to help track vehicle maintenance, reminders, documents, notes, costs, and exports. You agree not to misuse the app, interfere with its operation, attempt unauthorized access, or use it in a way that violates applicable laws.",
-        "purchases": "If AutoAtlas offers paid plans, subscriptions, or in-app purchases, those transactions are handled by Apple through the App Store. Refunds, billing, and cancellation rules are managed by Apple's policies.",
-        "userContent": "You are responsible for the vehicle records, photos, documents, receipts, notes, reports, and other content you add to AutoAtlas. You are also responsible for reviewing exported files before sharing them.",
-        "disclaimers": "AutoAtlas is provided as is and as available. Vehicle reminders, maintenance records, document storage, reports, and cost tracking are provided for personal organization and are not a substitute for professional mechanical, legal, insurance, financial, or safety advice.",
-        "limitationOfLiability": "To the maximum extent permitted by law, BluArc, LLC is not liable for indirect, incidental, special, consequential, or punitive damages arising from your use of AutoAtlas, including lost records, deleted files, missed reminders, or decisions made from exported reports.",
-        "termination": "We may suspend or discontinue access to AutoAtlas if these terms are violated or if the app is no longer supported.",
-        "changes": "We may update these Terms of Service from time to time. Updates will be posted on this page with a revised effective date.",
-        "contactEmail": "support@bluarcllc.com"
+        "acceptance": "These Terms of Service govern your use of AutoAtlas, a vehicle maintenance and document vault app provided by BluArc LLC.\n\nBy downloading, accessing, or using AutoAtlas, you agree to these Terms. If you do not agree, do not use the app.",
+        "permittedUse": "AutoAtlas helps users organize vehicle maintenance records, mileage, reminders, documents, receipts, warranties, registration information, insurance information, photos, costs, and vehicle history exports.\n\nAutoAtlas is an organizational tool. It is not a mechanic, insurance agent, attorney, tax advisor, registration authority, lender, recall authority, or government agency.\n\nYou are responsible for verifying all maintenance needs, legal deadlines, insurance requirements, registration requirements, recall information, warranty terms, resale disclosures, and document accuracy.",
+        "purchases": "AutoAtlas may offer Free, Premium, and Pro plans.\n\nThe Free plan may include limits such as one vehicle, limited records, limited attachments, local storage, and limited export features.\n\nPremium and Pro plans may unlock additional vehicles, unlimited records, unlimited attachments, resale packet export, iCloud backup and sync, advanced reminders, family/fleet tools, or other paid features.\n\nPaid plans, if offered through the App Store, are processed by Apple as in-app purchases or subscriptions. Prices, trial terms, renewal terms, cancellation rules, refunds, and taxes may be handled by Apple.\n\nSubscriptions renew automatically unless canceled through your Apple ID subscription settings before renewal. Deleting the app does not automatically cancel a subscription.\n\nWe may change plan names, features, pricing, or limits in the future. Changes will not reduce features already required by applicable law for an active paid subscription period, but future renewals may be subject to updated terms or pricing where permitted.",
+        "userContent": "You are responsible for the information you enter, attach, store, export, or share through AutoAtlas.\n\nYou agree not to use AutoAtlas to store or share unlawful, infringing, harmful, fraudulent, or malicious content.\n\nYou are responsible for keeping your device, Apple ID, iCloud account, passwords, backups, and exported files secure.",
+        "disclaimers": "AutoAtlas is provided \"as is\" and \"as available.\" To the fullest extent permitted by law, we disclaim all warranties, express or implied, including warranties of merchantability, fitness for a particular purpose, title, and non-infringement.\n\nWe do not warrant that AutoAtlas will prevent missed maintenance, prevent document loss, increase resale value, satisfy legal requirements, or produce complete vehicle records.",
+        "limitationOfLiability": "To the fullest extent permitted by law, BluArc LLC and its owners, employees, contractors, and affiliates will not be liable for indirect, incidental, consequential, special, exemplary, or punitive damages, or for lost profits, lost data, lost business, vehicle damage, missed deadlines, failed sales, denied claims, or other losses arising from your use of AutoAtlas.\n\nTo the fullest extent permitted by law, our total liability for any claim related to AutoAtlas will not exceed the amount you paid for AutoAtlas in the twelve months before the event giving rise to the claim, or $50 if you paid nothing.\n\nSome jurisdictions do not allow certain limitations, so some of these limits may not apply to you.",
+        "termination": "You may stop using AutoAtlas at any time. We may suspend or terminate access to AutoAtlas where reasonably necessary to protect the app, comply with law, prevent misuse, or enforce these Terms.\n\nSections that by their nature should survive termination will survive, including ownership, disclaimers, limitation of liability, indemnification, and dispute terms.",
+        "changes": "We may update these Terms from time to time. If we make material changes, we will update the Last updated date and, when appropriate, provide additional notice in the app or on our website.\n\nYour continued use of AutoAtlas after changes become effective means you accept the updated Terms.",
+        "contactEmail": "support@bluarcllc.com",
+        "contactWebsite": "BluArcLLC.com",
+        "additionalSections": [
+          {
+            "title": "Eligibility",
+            "content": "You must be at least 13 years old to use AutoAtlas. If you use AutoAtlas on behalf of a business, family, fleet, or other organization, you represent that you have authority to do so."
+          },
+          {
+            "title": "Local Storage and iCloud",
+            "content": "AutoAtlas is designed to work offline and store data locally on your device unless iCloud sync is enabled.\n\nIf iCloud sync is available for your plan and enabled, AutoAtlas may use Apple's iCloud and CloudKit services to sync your records through your private Apple iCloud account. iCloud availability, storage, security, account access, and syncing behavior are provided by Apple and may be subject to Apple's terms, limitations, and outages.\n\nAutoAtlas is not responsible for loss of data caused by device loss, device reset, app deletion, iCloud account issues, Apple service outages, user error, or failure to maintain backups."
+          },
+          {
+            "title": "No Professional Advice",
+            "content": "AutoAtlas may display reminders, schedules, cost summaries, mileage logs, resale packets, and vehicle history reports based on data you enter. These features are informational only.\n\nAutoAtlas does not guarantee that maintenance schedules, reminder dates, mileage intervals, cost calculations, resale reports, or document summaries are complete, accurate, or suitable for your specific vehicle.\n\nAlways consult your vehicle owner's manual, qualified mechanic, dealer, insurer, lender, registration authority, warranty provider, or other appropriate professional before making decisions."
+          },
+          {
+            "title": "Documents, Attachments, and Exports",
+            "content": "AutoAtlas may allow you to attach and preview photos, PDFs, receipts, warranties, insurance documents, registration documents, and other files.\n\nYou are responsible for ensuring you have the right to store and share any files you add.\n\nExports and resale packets are generated from the information and attachments available in the app. You should review exported files carefully before sharing them. AutoAtlas is not responsible for information you choose to omit, include, or share with a buyer, shop, insurer, lender, or other third party."
+          },
+          {
+            "title": "Notifications and Reminders",
+            "content": "AutoAtlas may provide local notifications for reminders if you grant permission. Notifications are not guaranteed to be delivered at any particular time and may be affected by device settings, Focus modes, battery settings, operating system behavior, or permission changes.\n\nYou remain responsible for meeting maintenance, registration, insurance, inspection, warranty, loan, and other deadlines."
+          },
+          {
+            "title": "Acceptable Use",
+            "content": "You agree not to:\n\n- Reverse engineer, modify, or attempt to extract source code except as permitted by law.\n- Interfere with the app, Apple services, or other users.\n- Use AutoAtlas for illegal, deceptive, or harmful purposes.\n- Attempt to bypass plan limits, purchase systems, security features, or access controls.\n- Upload or share content you do not have the right to use."
+          },
+          {
+            "title": "Intellectual Property",
+            "content": "AutoAtlas, including its name, logo, design, software, text, graphics, and features, is owned by BluArc LLC or its licensors and is protected by intellectual property laws.\n\nYou receive a limited, personal, non-exclusive, non-transferable license to use AutoAtlas for its intended purpose, subject to these Terms and Apple's applicable App Store terms."
+          },
+          {
+            "title": "Third-Party Services",
+            "content": "AutoAtlas may rely on Apple services such as iOS, SwiftData, iCloud, CloudKit, App Store purchases, notifications, file pickers, photo access, sharing, and device backup. Your use of those services may be governed by Apple's terms and privacy policies.\n\nWe are not responsible for third-party services, outages, policy changes, or account restrictions."
+          },
+          {
+            "title": "Updates and Availability",
+            "content": "We may update, improve, change, suspend, or discontinue features of AutoAtlas. Some features may require a compatible device, operating system version, iCloud account, subscription plan, or internet connection.\n\nWe do not guarantee that AutoAtlas will always be available, uninterrupted, error-free, or compatible with every device or operating system version."
+          },
+          {
+            "title": "Indemnification",
+            "content": "You agree to defend, indemnify, and hold harmless BluArc LLC from claims, damages, liabilities, costs, and expenses arising from your use of AutoAtlas, your data, your exports, your violation of these Terms, or your violation of another person's rights."
+          },
+          {
+            "title": "Apple App Store Terms",
+            "content": "If you downloaded AutoAtlas from the Apple App Store, Apple's terms also apply. Apple is not responsible for AutoAtlas or its content, maintenance, support, warranties, claims, or disputes, except as required by applicable law or Apple's own terms.\n\nApple and its subsidiaries are third-party beneficiaries of these Terms and may enforce these Terms as they relate to your App Store use of AutoAtlas."
+          },
+          {
+            "title": "Governing Law",
+            "content": "These Terms are governed by the laws of the State of [INSERT STATE], without regard to conflict of law principles, unless applicable law requires otherwise."
+          }
+        ]
       }
     },
     {

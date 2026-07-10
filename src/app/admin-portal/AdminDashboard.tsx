@@ -234,7 +234,7 @@ function AppEditor({
             onChange={(value) => onChange({ ...app, terms: { ...app.terms, contactEmail: value } })}
           />
         </div>
-        {[
+        {([
           ["Acceptance of terms", "acceptance"],
           ["Permitted use", "permittedUse"],
           ["Purchases and billing", "purchases"],
@@ -243,11 +243,11 @@ function AppEditor({
           ["Limitation of liability", "limitationOfLiability"],
           ["Termination", "termination"],
           ["Changes to terms", "changes"],
-        ].map(([label, key]) => (
+        ] as const).map(([label, key]) => (
           <TextArea
             key={key}
             label={label}
-            value={app.terms[key as keyof AppRecord["terms"]]}
+            value={app.terms[key]}
             onChange={(value) =>
               onChange({
                 ...app,

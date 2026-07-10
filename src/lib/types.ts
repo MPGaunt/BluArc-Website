@@ -33,6 +33,11 @@ export type TermsOfService = {
   termination: string;
   changes: string;
   contactEmail: string;
+  contactWebsite?: string;
+  additionalSections?: {
+    title: string;
+    content: string;
+  }[];
 };
 
 export type AppRecord = {
